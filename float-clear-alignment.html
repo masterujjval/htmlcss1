@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>float clear and alignment</title>
+      
+    <style>
+        *{
+
+
+        }
+
+        .container{border: 4px solid purple; 
+        margin: auto;
+        width: 900px;}
+      
+      .other{border: 3px solid rgb(92, 226, 14);
+      margin: 15px 6px;
+      padding: 9px 6px;}
+
+
+      p{font-size: 15px; font-family: fantasy;}
+
+
+      #new{float: left; 
+      width: 45%;}
+
+      #new2{float: left;
+      width: 45%;}
+
+      #new3{clear: both;
+      width: 92%;}
+
+
+    </style>
+
+
+
+    
+</head>
+
+<body>
+    <div class="container">
+        <div id="new" class="other">
+            <h1>this is for floating</h1>
+            <p id="paraid1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eligendi quaerat nostrum, asperiores consequuntur illo dolore, minus, accusantium officiis perferendis eveniet. Quasi sint aperiam rerum nulla. Praesentium eveniet quibusdam laborum libero ab.
+
+            </p>
+
+        </div>
+
+        <div id="new2" class="other">
+            <h1>this is also for float</h1>
+            <p id="paraid2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus cum, eveniet tempore aliquid perspiciatis distinctio neque, minima deleniti minus hic illo, quibusdam repudiandae ullam fugit exercitationem iure animi earum quos harum! Optio?</p>
+        </div>
+
+        <div id="new3" class="other">
+            <h1>this is for clear example</h1>
+            <p id="paraid3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga saepe quis impedit illum eius quasi minima, quisquam dicta, nesciunt sapiente libero amet et, ullam corporis nisi accusantium deserunt? Corporis sapiente repudiandae enim.</p>
+        </div>
+
+
+
+    </div>
+    
+</body>
+</html>
